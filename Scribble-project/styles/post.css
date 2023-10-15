@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+}
+.post-container
+{
+    display: flex;
+    flex-direction: column;
+   position: absolute;
+   left: 5%;
+   right: 5%;
+}
+.post-title
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.post-author
+{
+    font-style: inherit;
+    font-size: large;
+}
+#editSaveButton
+{
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#editablePost
+{
+    display: flex;
+    text-align: justify;
+}
+.like-post
+{
+    display: flex;
+    flex-direction: column;
+}
+#likePostBtn
+{
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.comment-form
+{
+    padding-top: 10px;
+}
+#add-comment-btn
+{
+    position: relative;
+    top: 10px;
+    height: 30px;
+    border: 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.editable {
+    border: 2px solid pink;
+}

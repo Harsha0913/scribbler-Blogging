@@ -1,0 +1,60 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.company-name {
+    font-family: 'Montez', cursive; 
+    font-size: 30px;
+   color: blue;
+   margin: 0px;
+}
+.button-signUp , .button-signIn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    
+}   
+#subHeading
+{
+    font-family: 'Ubuntu Mono',sans-serif ;
+}
+input
+{
+    background-color: rgb(219, 214, 214);
+    height: 25px;
+}
+label
+{
+    font-size: larger;
+    margin: 10px 0px;
+}
+#modal3-title
+{
+    font-size: 24px;
+}
+#contents
+{
+    background-color: rgb(229, 221, 221);
+    
+}
+#createPostbtn
+{
+    
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding-top: 2px;
+    margin-top: 20px;
+    /* Adjust the font size for text */
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(54, 179, 54);
+    margin-bottom: 20px;
+}
+
